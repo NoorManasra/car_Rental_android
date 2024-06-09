@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <!-- ID -->
+    <EditText
+        android:id="@+id/updateIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter updated ID"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Name -->
+    <EditText
+        android:id="@+id/updateNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter updated name"
+        android:layout_below="@id/updateIdEditText"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Price -->
+    <EditText
+        android:id="@+id/updatePriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter updated price"
+        android:layout_below="@id/updateNameEditText"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- State -->
+    <EditText
+        android:id="@+id/updateStateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter updated state"
+        android:layout_below="@id/updatePriceEditText"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Description -->
+    <EditText
+        android:id="@+id/updateDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter updated description"
+        android:layout_below="@id/updateStateEditText"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Image -->
+    <EditText
+        android:id="@+id/updateImageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter updated image URL"
+        android:layout_below="@id/updateDescriptionEditText"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Number of Cars -->
+    <EditText
+        android:id="@+id/updateNumberOfCarsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter updated number of cars"
+        android:layout_below="@id/updateImageEditText"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Update Button -->
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updateNumberOfCarsEditText"
+        android:layout_centerHorizontal="true"
+        android:text="Update Now" />
+
+</RelativeLayout>
